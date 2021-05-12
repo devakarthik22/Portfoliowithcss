@@ -1,0 +1,80 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+body {
+    background: #F5F5F5;
+    color: #444;
+    font-family: "Helvetica Neue", Arial, serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+    font-weight: 200;
+}
+h1, h2, h3 {
+    margin: 10px 0 15px;
+}
+p, ul {
+    margin: 10px 0;
+}
+ul li {
+    margin-left: 30px;
+}
+h1{
+    color:white;
+}
+  
+div.head{
+    align-items: center;
+    background-color: #EFEFEF;
+    color:white;
+    background: url('Background.jpg') no-repeat center fixed;     
+    background-size: cover;
+}
+div.head{
+    border-top: 4px solid whitesmoke;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    height: 40vh;
+    justify-content: center;
+    min-height: 250px;
+    padding: 0 20px;
+    position: relative;
+    text-align: center;
+}
+a {
+    color: #190aec;
+    font-weight: 600;
+    text-decoration: none;
+  
+    padding: 3px;
+  }
+  
+a:hover {
+    background-color: #010f11;
+    color: white;
+}
+  
+  a:active {
+    position: relative;
+    top: 1px;
+  }
+  .abc{
+    line-height: 1.4;
+    margin:0  auto;
+    max-width: 1000px;
+    
+
+  }
+  .Skills {
+    background: #e91e63;
+    color: white;
+  }
+    .some{
+    background: #e91e63;
+    color: white;
+  }
+
+  

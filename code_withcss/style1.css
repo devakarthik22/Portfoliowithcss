@@ -1,0 +1,38 @@
+body{
+    background:rgb(121, 3, 121);
+}
+h1, h2{
+    margin: 10px 0 15px;
+}
+p, ul {
+    margin: 10px 0;
+}
+ul li {
+    margin-left: 30px;
+}
+h1,h2,p{
+    color:white;
+}
+ul li{
+    color:rgb(255, 221, 71);
+}
+a{
+    color:whitesmoke;
+}
+a:hover {
+    background-color: white;
+    color: black;
+}
+a:active {
+    position: relative;
+    top: 1px;
+}
+.abc{
+    line-height: 1.4;
+    margin:0  auto;
+    max-width: 1000px;
+
+}
+img{
+    padding:30px;
+}
